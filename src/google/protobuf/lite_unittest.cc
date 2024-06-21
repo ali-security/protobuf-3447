@@ -31,6 +31,7 @@
 #include "google/protobuf/parse_context.h"
 #include "google/protobuf/test_util_lite.h"
 #include "google/protobuf/unittest_lite.pb.h"
+#include "google/protobuf/unittest_lite_edition_2024.pb.h"
 #include "google/protobuf/wire_format_lite.h"
 
 // Must be included last
@@ -1162,6 +1163,23 @@ TYPED_TEST(LiteTest, EnumValueToName) {
                                     protobuf_unittest::FOREIGN_LITE_BAZ));
   EXPECT_EQ("", protobuf_unittest::ForeignEnumLite_Name(0));
   EXPECT_EQ("", protobuf_unittest::ForeignEnumLite_Name(999));
+}
+
+TYPED_TEST(LiteTest, EnumValueToNameReturnsStringViewIn2024) {
+  EXPECT_TRUE(
+      (std::is_same<decltype(protobuf_unittest::EnumNameStringView_Name(
+                        protobuf_unittest::ENUM_NAME_STRING_VIEW_DEFAULT)),
+                    absl::string_view>::value));
+  EXPECT_TRUE(
+      (std::is_same<decltype(protobuf_unittest::EnumNameStringView_Name(1)),
+                    absl::string_view>::value));
+
+  EXPECT_EQ("ENUM_NAME_STRING_VIEW_DEFAULT",
+            protobuf_unittest::EnumNameStringView_Name(
+                protobuf_unittest::ENUM_NAME_STRING_VIEW_DEFAULT));
+  EXPECT_EQ("ENUM_NAME_STRING_VIEW_ANOTHER_VALUE",
+            protobuf_unittest::EnumNameStringView_Name(
+                protobuf_unittest::ENUM_NAME_STRING_VIEW_ANOTHER_VALUE));
 }
 
 TYPED_TEST(LiteTest, NestedEnumValueToName) {

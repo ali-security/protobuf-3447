@@ -174,14 +174,14 @@ constexpr int ExtensionRangeOptions_VerificationState_VerificationState_ARRAYSIZ
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 ExtensionRangeOptions_VerificationState_descriptor();
 template <typename T>
-const std::string& ExtensionRangeOptions_VerificationState_Name(T value) {
+const ::std::string& ExtensionRangeOptions_VerificationState_Name(T value) {
   static_assert(std::is_same<T, ExtensionRangeOptions_VerificationState>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to VerificationState_Name().");
   return ExtensionRangeOptions_VerificationState_Name(static_cast<ExtensionRangeOptions_VerificationState>(value));
 }
 template <>
-inline const std::string& ExtensionRangeOptions_VerificationState_Name(ExtensionRangeOptions_VerificationState value) {
+inline const ::std::string& ExtensionRangeOptions_VerificationState_Name(ExtensionRangeOptions_VerificationState value) {
   return ::google::protobuf::internal::NameOfDenseEnum<ExtensionRangeOptions_VerificationState_descriptor,
                                                  0, 1>(
       static_cast<int>(value));
@@ -219,14 +219,14 @@ constexpr int FieldDescriptorProto_Type_Type_ARRAYSIZE = 18 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FieldDescriptorProto_Type_descriptor();
 template <typename T>
-const std::string& FieldDescriptorProto_Type_Name(T value) {
+const ::std::string& FieldDescriptorProto_Type_Name(T value) {
   static_assert(std::is_same<T, FieldDescriptorProto_Type>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to Type_Name().");
   return FieldDescriptorProto_Type_Name(static_cast<FieldDescriptorProto_Type>(value));
 }
 template <>
-inline const std::string& FieldDescriptorProto_Type_Name(FieldDescriptorProto_Type value) {
+inline const ::std::string& FieldDescriptorProto_Type_Name(FieldDescriptorProto_Type value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FieldDescriptorProto_Type_descriptor,
                                                  1, 18>(
       static_cast<int>(value));
@@ -249,14 +249,14 @@ constexpr int FieldDescriptorProto_Label_Label_ARRAYSIZE = 3 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FieldDescriptorProto_Label_descriptor();
 template <typename T>
-const std::string& FieldDescriptorProto_Label_Name(T value) {
+const ::std::string& FieldDescriptorProto_Label_Name(T value) {
   static_assert(std::is_same<T, FieldDescriptorProto_Label>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to Label_Name().");
   return FieldDescriptorProto_Label_Name(static_cast<FieldDescriptorProto_Label>(value));
 }
 template <>
-inline const std::string& FieldDescriptorProto_Label_Name(FieldDescriptorProto_Label value) {
+inline const ::std::string& FieldDescriptorProto_Label_Name(FieldDescriptorProto_Label value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FieldDescriptorProto_Label_descriptor,
                                                  1, 3>(
       static_cast<int>(value));
@@ -279,14 +279,14 @@ constexpr int FileOptions_OptimizeMode_OptimizeMode_ARRAYSIZE = 3 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FileOptions_OptimizeMode_descriptor();
 template <typename T>
-const std::string& FileOptions_OptimizeMode_Name(T value) {
+const ::std::string& FileOptions_OptimizeMode_Name(T value) {
   static_assert(std::is_same<T, FileOptions_OptimizeMode>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to OptimizeMode_Name().");
   return FileOptions_OptimizeMode_Name(static_cast<FileOptions_OptimizeMode>(value));
 }
 template <>
-inline const std::string& FileOptions_OptimizeMode_Name(FileOptions_OptimizeMode value) {
+inline const ::std::string& FileOptions_OptimizeMode_Name(FileOptions_OptimizeMode value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FileOptions_OptimizeMode_descriptor,
                                                  1, 3>(
       static_cast<int>(value));
@@ -309,14 +309,14 @@ constexpr int FieldOptions_CType_CType_ARRAYSIZE = 2 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FieldOptions_CType_descriptor();
 template <typename T>
-const std::string& FieldOptions_CType_Name(T value) {
+const ::std::string& FieldOptions_CType_Name(T value) {
   static_assert(std::is_same<T, FieldOptions_CType>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to CType_Name().");
   return FieldOptions_CType_Name(static_cast<FieldOptions_CType>(value));
 }
 template <>
-inline const std::string& FieldOptions_CType_Name(FieldOptions_CType value) {
+inline const ::std::string& FieldOptions_CType_Name(FieldOptions_CType value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FieldOptions_CType_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -339,14 +339,14 @@ constexpr int FieldOptions_JSType_JSType_ARRAYSIZE = 2 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FieldOptions_JSType_descriptor();
 template <typename T>
-const std::string& FieldOptions_JSType_Name(T value) {
+const ::std::string& FieldOptions_JSType_Name(T value) {
   static_assert(std::is_same<T, FieldOptions_JSType>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to JSType_Name().");
   return FieldOptions_JSType_Name(static_cast<FieldOptions_JSType>(value));
 }
 template <>
-inline const std::string& FieldOptions_JSType_Name(FieldOptions_JSType value) {
+inline const ::std::string& FieldOptions_JSType_Name(FieldOptions_JSType value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FieldOptions_JSType_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -369,14 +369,14 @@ constexpr int FieldOptions_OptionRetention_OptionRetention_ARRAYSIZE = 2 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FieldOptions_OptionRetention_descriptor();
 template <typename T>
-const std::string& FieldOptions_OptionRetention_Name(T value) {
+const ::std::string& FieldOptions_OptionRetention_Name(T value) {
   static_assert(std::is_same<T, FieldOptions_OptionRetention>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to OptionRetention_Name().");
   return FieldOptions_OptionRetention_Name(static_cast<FieldOptions_OptionRetention>(value));
 }
 template <>
-inline const std::string& FieldOptions_OptionRetention_Name(FieldOptions_OptionRetention value) {
+inline const ::std::string& FieldOptions_OptionRetention_Name(FieldOptions_OptionRetention value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FieldOptions_OptionRetention_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -406,14 +406,14 @@ constexpr int FieldOptions_OptionTargetType_OptionTargetType_ARRAYSIZE = 9 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FieldOptions_OptionTargetType_descriptor();
 template <typename T>
-const std::string& FieldOptions_OptionTargetType_Name(T value) {
+const ::std::string& FieldOptions_OptionTargetType_Name(T value) {
   static_assert(std::is_same<T, FieldOptions_OptionTargetType>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to OptionTargetType_Name().");
   return FieldOptions_OptionTargetType_Name(static_cast<FieldOptions_OptionTargetType>(value));
 }
 template <>
-inline const std::string& FieldOptions_OptionTargetType_Name(FieldOptions_OptionTargetType value) {
+inline const ::std::string& FieldOptions_OptionTargetType_Name(FieldOptions_OptionTargetType value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FieldOptions_OptionTargetType_descriptor,
                                                  0, 9>(
       static_cast<int>(value));
@@ -436,14 +436,14 @@ constexpr int MethodOptions_IdempotencyLevel_IdempotencyLevel_ARRAYSIZE = 2 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 MethodOptions_IdempotencyLevel_descriptor();
 template <typename T>
-const std::string& MethodOptions_IdempotencyLevel_Name(T value) {
+const ::std::string& MethodOptions_IdempotencyLevel_Name(T value) {
   static_assert(std::is_same<T, MethodOptions_IdempotencyLevel>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to IdempotencyLevel_Name().");
   return MethodOptions_IdempotencyLevel_Name(static_cast<MethodOptions_IdempotencyLevel>(value));
 }
 template <>
-inline const std::string& MethodOptions_IdempotencyLevel_Name(MethodOptions_IdempotencyLevel value) {
+inline const ::std::string& MethodOptions_IdempotencyLevel_Name(MethodOptions_IdempotencyLevel value) {
   return ::google::protobuf::internal::NameOfDenseEnum<MethodOptions_IdempotencyLevel_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -467,14 +467,14 @@ constexpr int FeatureSet_FieldPresence_FieldPresence_ARRAYSIZE = 3 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FeatureSet_FieldPresence_descriptor();
 template <typename T>
-const std::string& FeatureSet_FieldPresence_Name(T value) {
+const ::std::string& FeatureSet_FieldPresence_Name(T value) {
   static_assert(std::is_same<T, FeatureSet_FieldPresence>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to FieldPresence_Name().");
   return FeatureSet_FieldPresence_Name(static_cast<FeatureSet_FieldPresence>(value));
 }
 template <>
-inline const std::string& FeatureSet_FieldPresence_Name(FeatureSet_FieldPresence value) {
+inline const ::std::string& FeatureSet_FieldPresence_Name(FeatureSet_FieldPresence value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FeatureSet_FieldPresence_descriptor,
                                                  0, 3>(
       static_cast<int>(value));
@@ -497,14 +497,14 @@ constexpr int FeatureSet_EnumType_EnumType_ARRAYSIZE = 2 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FeatureSet_EnumType_descriptor();
 template <typename T>
-const std::string& FeatureSet_EnumType_Name(T value) {
+const ::std::string& FeatureSet_EnumType_Name(T value) {
   static_assert(std::is_same<T, FeatureSet_EnumType>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to EnumType_Name().");
   return FeatureSet_EnumType_Name(static_cast<FeatureSet_EnumType>(value));
 }
 template <>
-inline const std::string& FeatureSet_EnumType_Name(FeatureSet_EnumType value) {
+inline const ::std::string& FeatureSet_EnumType_Name(FeatureSet_EnumType value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FeatureSet_EnumType_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -527,14 +527,14 @@ constexpr int FeatureSet_RepeatedFieldEncoding_RepeatedFieldEncoding_ARRAYSIZE =
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FeatureSet_RepeatedFieldEncoding_descriptor();
 template <typename T>
-const std::string& FeatureSet_RepeatedFieldEncoding_Name(T value) {
+const ::std::string& FeatureSet_RepeatedFieldEncoding_Name(T value) {
   static_assert(std::is_same<T, FeatureSet_RepeatedFieldEncoding>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to RepeatedFieldEncoding_Name().");
   return FeatureSet_RepeatedFieldEncoding_Name(static_cast<FeatureSet_RepeatedFieldEncoding>(value));
 }
 template <>
-inline const std::string& FeatureSet_RepeatedFieldEncoding_Name(FeatureSet_RepeatedFieldEncoding value) {
+inline const ::std::string& FeatureSet_RepeatedFieldEncoding_Name(FeatureSet_RepeatedFieldEncoding value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FeatureSet_RepeatedFieldEncoding_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -557,14 +557,14 @@ constexpr int FeatureSet_Utf8Validation_Utf8Validation_ARRAYSIZE = 3 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FeatureSet_Utf8Validation_descriptor();
 template <typename T>
-const std::string& FeatureSet_Utf8Validation_Name(T value) {
+const ::std::string& FeatureSet_Utf8Validation_Name(T value) {
   static_assert(std::is_same<T, FeatureSet_Utf8Validation>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to Utf8Validation_Name().");
   return FeatureSet_Utf8Validation_Name(static_cast<FeatureSet_Utf8Validation>(value));
 }
 template <>
-inline const std::string& FeatureSet_Utf8Validation_Name(FeatureSet_Utf8Validation value) {
+inline const ::std::string& FeatureSet_Utf8Validation_Name(FeatureSet_Utf8Validation value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FeatureSet_Utf8Validation_descriptor,
                                                  0, 3>(
       static_cast<int>(value));
@@ -587,14 +587,14 @@ constexpr int FeatureSet_MessageEncoding_MessageEncoding_ARRAYSIZE = 2 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FeatureSet_MessageEncoding_descriptor();
 template <typename T>
-const std::string& FeatureSet_MessageEncoding_Name(T value) {
+const ::std::string& FeatureSet_MessageEncoding_Name(T value) {
   static_assert(std::is_same<T, FeatureSet_MessageEncoding>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to MessageEncoding_Name().");
   return FeatureSet_MessageEncoding_Name(static_cast<FeatureSet_MessageEncoding>(value));
 }
 template <>
-inline const std::string& FeatureSet_MessageEncoding_Name(FeatureSet_MessageEncoding value) {
+inline const ::std::string& FeatureSet_MessageEncoding_Name(FeatureSet_MessageEncoding value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FeatureSet_MessageEncoding_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -617,14 +617,14 @@ constexpr int FeatureSet_JsonFormat_JsonFormat_ARRAYSIZE = 2 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 FeatureSet_JsonFormat_descriptor();
 template <typename T>
-const std::string& FeatureSet_JsonFormat_Name(T value) {
+const ::std::string& FeatureSet_JsonFormat_Name(T value) {
   static_assert(std::is_same<T, FeatureSet_JsonFormat>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to JsonFormat_Name().");
   return FeatureSet_JsonFormat_Name(static_cast<FeatureSet_JsonFormat>(value));
 }
 template <>
-inline const std::string& FeatureSet_JsonFormat_Name(FeatureSet_JsonFormat value) {
+inline const ::std::string& FeatureSet_JsonFormat_Name(FeatureSet_JsonFormat value) {
   return ::google::protobuf::internal::NameOfDenseEnum<FeatureSet_JsonFormat_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -647,14 +647,14 @@ constexpr int GeneratedCodeInfo_Annotation_Semantic_Semantic_ARRAYSIZE = 2 + 1;
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 GeneratedCodeInfo_Annotation_Semantic_descriptor();
 template <typename T>
-const std::string& GeneratedCodeInfo_Annotation_Semantic_Name(T value) {
+const ::std::string& GeneratedCodeInfo_Annotation_Semantic_Name(T value) {
   static_assert(std::is_same<T, GeneratedCodeInfo_Annotation_Semantic>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to Semantic_Name().");
   return GeneratedCodeInfo_Annotation_Semantic_Name(static_cast<GeneratedCodeInfo_Annotation_Semantic>(value));
 }
 template <>
-inline const std::string& GeneratedCodeInfo_Annotation_Semantic_Name(GeneratedCodeInfo_Annotation_Semantic value) {
+inline const ::std::string& GeneratedCodeInfo_Annotation_Semantic_Name(GeneratedCodeInfo_Annotation_Semantic value) {
   return ::google::protobuf::internal::NameOfDenseEnum<GeneratedCodeInfo_Annotation_Semantic_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -685,7 +685,7 @@ constexpr Edition Edition_MAX = static_cast<Edition>(2147483647);
 PROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor*
 Edition_descriptor();
 template <typename T>
-const std::string& Edition_Name(T value) {
+const ::std::string& Edition_Name(T value) {
   static_assert(std::is_same<T, Edition>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to Edition_Name().");
@@ -1300,7 +1300,7 @@ class PROTOBUF_EXPORT GeneratedCodeInfo_Annotation final : public ::google::prot
     return GeneratedCodeInfo_Annotation_Semantic_descriptor();
   }
   template <typename T>
-  static inline const std::string& Semantic_Name(T value) {
+  static inline const ::std::string& Semantic_Name(T value) {
     return GeneratedCodeInfo_Annotation_Semantic_Name(value);
   }
   static inline bool Semantic_Parse(absl::string_view name, Semantic* value) {
@@ -1978,7 +1978,7 @@ class PROTOBUF_EXPORT FeatureSet final : public ::google::protobuf::Message
     return FeatureSet_FieldPresence_descriptor();
   }
   template <typename T>
-  static inline const std::string& FieldPresence_Name(T value) {
+  static inline const ::std::string& FieldPresence_Name(T value) {
     return FeatureSet_FieldPresence_Name(value);
   }
   static inline bool FieldPresence_Parse(absl::string_view name, FieldPresence* value) {
@@ -1998,7 +1998,7 @@ class PROTOBUF_EXPORT FeatureSet final : public ::google::protobuf::Message
     return FeatureSet_EnumType_descriptor();
   }
   template <typename T>
-  static inline const std::string& EnumType_Name(T value) {
+  static inline const ::std::string& EnumType_Name(T value) {
     return FeatureSet_EnumType_Name(value);
   }
   static inline bool EnumType_Parse(absl::string_view name, EnumType* value) {
@@ -2018,7 +2018,7 @@ class PROTOBUF_EXPORT FeatureSet final : public ::google::protobuf::Message
     return FeatureSet_RepeatedFieldEncoding_descriptor();
   }
   template <typename T>
-  static inline const std::string& RepeatedFieldEncoding_Name(T value) {
+  static inline const ::std::string& RepeatedFieldEncoding_Name(T value) {
     return FeatureSet_RepeatedFieldEncoding_Name(value);
   }
   static inline bool RepeatedFieldEncoding_Parse(absl::string_view name, RepeatedFieldEncoding* value) {
@@ -2038,7 +2038,7 @@ class PROTOBUF_EXPORT FeatureSet final : public ::google::protobuf::Message
     return FeatureSet_Utf8Validation_descriptor();
   }
   template <typename T>
-  static inline const std::string& Utf8Validation_Name(T value) {
+  static inline const ::std::string& Utf8Validation_Name(T value) {
     return FeatureSet_Utf8Validation_Name(value);
   }
   static inline bool Utf8Validation_Parse(absl::string_view name, Utf8Validation* value) {
@@ -2058,7 +2058,7 @@ class PROTOBUF_EXPORT FeatureSet final : public ::google::protobuf::Message
     return FeatureSet_MessageEncoding_descriptor();
   }
   template <typename T>
-  static inline const std::string& MessageEncoding_Name(T value) {
+  static inline const ::std::string& MessageEncoding_Name(T value) {
     return FeatureSet_MessageEncoding_Name(value);
   }
   static inline bool MessageEncoding_Parse(absl::string_view name, MessageEncoding* value) {
@@ -2078,7 +2078,7 @@ class PROTOBUF_EXPORT FeatureSet final : public ::google::protobuf::Message
     return FeatureSet_JsonFormat_descriptor();
   }
   template <typename T>
-  static inline const std::string& JsonFormat_Name(T value) {
+  static inline const ::std::string& JsonFormat_Name(T value) {
     return FeatureSet_JsonFormat_Name(value);
   }
   static inline bool JsonFormat_Parse(absl::string_view name, JsonFormat* value) {
@@ -4766,7 +4766,7 @@ class PROTOBUF_EXPORT MethodOptions final : public ::google::protobuf::Message
     return MethodOptions_IdempotencyLevel_descriptor();
   }
   template <typename T>
-  static inline const std::string& IdempotencyLevel_Name(T value) {
+  static inline const ::std::string& IdempotencyLevel_Name(T value) {
     return MethodOptions_IdempotencyLevel_Name(value);
   }
   static inline bool IdempotencyLevel_Parse(absl::string_view name, IdempotencyLevel* value) {
@@ -5641,7 +5641,7 @@ class PROTOBUF_EXPORT FileOptions final : public ::google::protobuf::Message
     return FileOptions_OptimizeMode_descriptor();
   }
   template <typename T>
-  static inline const std::string& OptimizeMode_Name(T value) {
+  static inline const ::std::string& OptimizeMode_Name(T value) {
     return FileOptions_OptimizeMode_Name(value);
   }
   static inline bool OptimizeMode_Parse(absl::string_view name, OptimizeMode* value) {
@@ -6352,7 +6352,7 @@ class PROTOBUF_EXPORT FieldOptions final : public ::google::protobuf::Message
     return FieldOptions_CType_descriptor();
   }
   template <typename T>
-  static inline const std::string& CType_Name(T value) {
+  static inline const ::std::string& CType_Name(T value) {
     return FieldOptions_CType_Name(value);
   }
   static inline bool CType_Parse(absl::string_view name, CType* value) {
@@ -6372,7 +6372,7 @@ class PROTOBUF_EXPORT FieldOptions final : public ::google::protobuf::Message
     return FieldOptions_JSType_descriptor();
   }
   template <typename T>
-  static inline const std::string& JSType_Name(T value) {
+  static inline const ::std::string& JSType_Name(T value) {
     return FieldOptions_JSType_Name(value);
   }
   static inline bool JSType_Parse(absl::string_view name, JSType* value) {
@@ -6392,7 +6392,7 @@ class PROTOBUF_EXPORT FieldOptions final : public ::google::protobuf::Message
     return FieldOptions_OptionRetention_descriptor();
   }
   template <typename T>
-  static inline const std::string& OptionRetention_Name(T value) {
+  static inline const ::std::string& OptionRetention_Name(T value) {
     return FieldOptions_OptionRetention_Name(value);
   }
   static inline bool OptionRetention_Parse(absl::string_view name, OptionRetention* value) {
@@ -6419,7 +6419,7 @@ class PROTOBUF_EXPORT FieldOptions final : public ::google::protobuf::Message
     return FieldOptions_OptionTargetType_descriptor();
   }
   template <typename T>
-  static inline const std::string& OptionTargetType_Name(T value) {
+  static inline const ::std::string& OptionTargetType_Name(T value) {
     return FieldOptions_OptionTargetType_Name(value);
   }
   static inline bool OptionTargetType_Parse(absl::string_view name, OptionTargetType* value) {
@@ -7207,7 +7207,7 @@ class PROTOBUF_EXPORT ExtensionRangeOptions final : public ::google::protobuf::M
     return ExtensionRangeOptions_VerificationState_descriptor();
   }
   template <typename T>
-  static inline const std::string& VerificationState_Name(T value) {
+  static inline const ::std::string& VerificationState_Name(T value) {
     return ExtensionRangeOptions_VerificationState_Name(value);
   }
   static inline bool VerificationState_Parse(absl::string_view name, VerificationState* value) {
@@ -8970,7 +8970,7 @@ class PROTOBUF_EXPORT FieldDescriptorProto final : public ::google::protobuf::Me
     return FieldDescriptorProto_Type_descriptor();
   }
   template <typename T>
-  static inline const std::string& Type_Name(T value) {
+  static inline const ::std::string& Type_Name(T value) {
     return FieldDescriptorProto_Type_Name(value);
   }
   static inline bool Type_Parse(absl::string_view name, Type* value) {
@@ -8990,7 +8990,7 @@ class PROTOBUF_EXPORT FieldDescriptorProto final : public ::google::protobuf::Me
     return FieldDescriptorProto_Label_descriptor();
   }
   template <typename T>
-  static inline const std::string& Label_Name(T value) {
+  static inline const ::std::string& Label_Name(T value) {
     return FieldDescriptorProto_Label_Name(value);
   }
   static inline bool Label_Parse(absl::string_view name, Label* value) {

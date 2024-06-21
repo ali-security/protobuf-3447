@@ -76,14 +76,14 @@ constexpr int JavaFeatures_Utf8Validation_Utf8Validation_ARRAYSIZE = 2 + 1;
 PROTOC_EXPORT const ::google::protobuf::EnumDescriptor*
 JavaFeatures_Utf8Validation_descriptor();
 template <typename T>
-const std::string& JavaFeatures_Utf8Validation_Name(T value) {
+const ::std::string& JavaFeatures_Utf8Validation_Name(T value) {
   static_assert(std::is_same<T, JavaFeatures_Utf8Validation>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to Utf8Validation_Name().");
   return JavaFeatures_Utf8Validation_Name(static_cast<JavaFeatures_Utf8Validation>(value));
 }
 template <>
-inline const std::string& JavaFeatures_Utf8Validation_Name(JavaFeatures_Utf8Validation value) {
+inline const ::std::string& JavaFeatures_Utf8Validation_Name(JavaFeatures_Utf8Validation value) {
   return ::google::protobuf::internal::NameOfDenseEnum<JavaFeatures_Utf8Validation_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -234,7 +234,7 @@ class PROTOC_EXPORT JavaFeatures final : public ::google::protobuf::Message
     return JavaFeatures_Utf8Validation_descriptor();
   }
   template <typename T>
-  static inline const std::string& Utf8Validation_Name(T value) {
+  static inline const ::std::string& Utf8Validation_Name(T value) {
     return JavaFeatures_Utf8Validation_Name(value);
   }
   static inline bool Utf8Validation_Parse(absl::string_view name, Utf8Validation* value) {

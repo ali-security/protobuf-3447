@@ -93,14 +93,14 @@ constexpr int CodeGeneratorResponse_Feature_Feature_ARRAYSIZE = 2 + 1;
 PROTOC_EXPORT const ::google::protobuf::EnumDescriptor*
 CodeGeneratorResponse_Feature_descriptor();
 template <typename T>
-const std::string& CodeGeneratorResponse_Feature_Name(T value) {
+const ::std::string& CodeGeneratorResponse_Feature_Name(T value) {
   static_assert(std::is_same<T, CodeGeneratorResponse_Feature>::value ||
                     std::is_integral<T>::value,
                 "Incorrect type passed to Feature_Name().");
   return CodeGeneratorResponse_Feature_Name(static_cast<CodeGeneratorResponse_Feature>(value));
 }
 template <>
-inline const std::string& CodeGeneratorResponse_Feature_Name(CodeGeneratorResponse_Feature value) {
+inline const ::std::string& CodeGeneratorResponse_Feature_Name(CodeGeneratorResponse_Feature value) {
   return ::google::protobuf::internal::NameOfDenseEnum<CodeGeneratorResponse_Feature_descriptor,
                                                  0, 2>(
       static_cast<int>(value));
@@ -706,7 +706,7 @@ class PROTOC_EXPORT CodeGeneratorResponse final : public ::google::protobuf::Mes
     return CodeGeneratorResponse_Feature_descriptor();
   }
   template <typename T>
-  static inline const std::string& Feature_Name(T value) {
+  static inline const ::std::string& Feature_Name(T value) {
     return CodeGeneratorResponse_Feature_Name(value);
   }
   static inline bool Feature_Parse(absl::string_view name, Feature* value) {

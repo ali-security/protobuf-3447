@@ -316,7 +316,7 @@ build_python() {
     envlist=py27-python
   fi
   envlist=py36-cpp
-  tox -e $envlist
+  PIP_TRUSTED_HOST="pypi.python.org pypi.org files.pythonhosted.org" tox -e $envlist
   cd ..
 }
 
@@ -325,7 +325,7 @@ build_python_version() {
   cd python
   envlist=$1
   envlist=py36-cpp
-  tox -e $envlist
+  PIP_TRUSTED_HOST="pypi.python.org pypi.org files.pythonhosted.org" tox -e $envlist
   cd ..
 }
 
@@ -368,7 +368,7 @@ build_python_cpp() {
     envlist=py27-cpp
   fi
   envlist=py36-cpp
-  tox -e $envlist
+  PIP_TRUSTED_HOST="pypi.python.org pypi.org files.pythonhosted.org" tox -e $envlist
   cd ..
 }
 
@@ -379,7 +379,7 @@ build_python_cpp_version() {
   cd python
   envlist=$1
   envlist=py36-cpp
-  tox -e $envlist
+  PIP_TRUSTED_HOST="pypi.python.org pypi.org files.pythonhosted.org" tox -e $envlist
   cd ..
 }
 

@@ -2,7 +2,6 @@ language: bash
 os:
   - linux
   - osx
-  - windows
 script:
   # build
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then
